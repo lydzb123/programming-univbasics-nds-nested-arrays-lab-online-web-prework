@@ -36,7 +36,7 @@ end
 
 def matrix_lookup(matrix, row, column)
   # Return the matrix's content at row and column
-  puts matrix[row.index][column.index]
+  puts matrix[row, column]
 
 end
 
