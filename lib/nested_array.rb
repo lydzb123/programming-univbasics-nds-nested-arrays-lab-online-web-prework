@@ -39,7 +39,6 @@ def matrix_lookup(matrix, row, column)
 
     matrix[row][column]
 end
-puts matrix_lookup(assembled_matrix, 1, 1)
 
 def matrix_update(matrix, row, column, new_value)
   # Update the matrix location at row and column to have the value of new_value
